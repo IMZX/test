@@ -1,0 +1,129 @@
+.index-header{
+	margin-top: 80px;
+}
+
+.index-header .header-logo{
+	float: left;
+	text-align: center;
+}
+
+.index-header .header-logo a{
+	width: 195px;
+	height: 100px;
+	background: url("../images/header-logo.png");
+	margin: 0;
+}
+
+.index-header .header-logo p{
+	font-size: 36px;
+	margin: 0;
+	line-height: 1em;
+}
+
+.header-navigation{
+	float: right;
+}
+
+.header-navigation .item{
+	float: left;
+	width: 110px;
+	height: 45px;
+	background: url("../images/navigation-bg1.png") ;
+	margin-left: 10px;
+}
+
+.header-navigation .item:hover{
+	background: url("../images/navigation-bg2.png") ;
+}
+
+.header-navigation .item a{
+	line-height: 45px;
+	text-align: center;
+	color: #fff;
+}
+
+.index-content{
+	overflow: hidden;
+	width: 1286px;/*父元素1285设置了溢出隐藏，这里加多一像素不影响*/
+	margin-top: 25px;
+}
+
+.index-content .content-left{
+	/*overflow: hidden;*/
+	float: left;
+	width: 905px;
+	height: 555px;
+	background: url("../images/body-leftbg1.png") no-repeat;
+}
+
+.index-content .content-left .date{
+	margin: 30px 0 0 30px;
+}
+
+.index-content .content-left .me{
+	margin: 60px 60px 0px 60px;
+	width: 785px;
+}
+
+.index-content .content-left .me h2{
+	text-align: center;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+.index-content .content-left .me p{
+	text-indent: 2em;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+/*.index-content .content-left .day{
+	width: 440px;
+	height: 220px;
+	margin: 0 auto;
+}*/
+
+.index-content .content-right{
+	/*overflow: hidden;*/
+	float: right;
+	width: 380px;
+	height: 555px;
+	background: url("../images/body-rightbg.png") no-repeat;
+}
+
+.index-content .content-right .sidbar{
+	margin: 60px 50px;
+	padding: 0;
+}
+
+.content-right .sidbar h2{
+	color: #fff;
+}
+
+.content-right .sidbar a{
+	color: #fff;
+	display: inline;
+}
+
+.content-right .sidbar a:hover{
+	text-decoration: underline;
+}
+
+.index-content .content-right .sidbar .item{
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #fff;
+}
+
+.index-content .content-right .day{
+	width: 350px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.index-footer{
+	height: 100px;
+	margin-top: 50px;
+}
+.index-footer a{
+	text-align: center;
+}
