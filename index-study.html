@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style/common.css">
+	<link rel="stylesheet" type="text/css" href="style/study.css">
+</head>
+<body>
+	<div class="public-container clearfloat index-header">
+		<div class="header-logo">
+			<a href=""></a>
+			<p><em>Change for the better</em></p>
+		</div>
+		<ul class="header-navigation clearfloat">
+			<li class="item"><a href="index.html">首页</a></li>
+			<li class="item"><a href="index-study.html">前端介绍</a></li>				
+			<li class="item"><a href="javascript:abuoutme ();">联系我</a></li>
+			<li class="item"><a href="javascript:Friendship_link ()">慎点</a></li>
+		</ul>
+	</div>
+
+	<div class="public-container content-study">
+		<div class="content-study-css">
+			<img src="images/study-images/css.png">
+			<div id="txt1">
+				<h2>css简介</h2>
+				<ul>
+					<li>
+						<ul>样式解决了一个普遍的问题<li>HTML 标签原本被设计为用于定义文档内容。通过使用h1、p、table这样的标签，HTML 的初衷是表达“这是标题”、“这是段落”、“这是表格”之类的信息。同时文档布局由浏览器来完成，而不使用任何的格式化标签。由于两种主要的浏览器（Netscape 和 Internet Explorer）不断地将新的 HTML 标签和属性（比如字体标签和颜色属性）添加到 HTML 规范中，创建文档内容清晰地独立于文档表现层的站点变得越来越困难。为了解决这个问题，万维网联盟（W3C），这个非营利的标准化联盟，肩负起了 HTML标准化的使命，并在HTML4.0之外创造出样式（Style）。所有的主流浏览器均支持层叠样式表。</li></ul>
+					</li>
+					<li>
+						<ul>样式表极大地提高了工作效率<li>样式表定义如何显示 HTML 元素，就像 HTML 3.2 的字体标签和颜色属性所起的作用那样。样式通常保存在外部的 .css 文件中。通过仅仅编辑一个简单的 CSS 文档，外部样式表使你有能力同时改变站点中所有页面的布局和外观。
+						由于允许同时控制多重页面的样式和布局，CSS 可以称得上 WEB 设计领域的一个突破。作为网站开发者，你能够为每个 HTML 元素定义样式，并将之应用于你希望的任意多的页面中。如需进行全局的更新，只需简单地改变样式，然后网站中的所有元素均会自动地更新。</li></ul>
+					</li>
+				</ul>
+
+			</div>
+			<input type="button" value="隐藏内容" onclick="hidetext1 ()">
+			<input type="button" value="显示内容" onclick="showtext1 ()">
+		</div>
+		<div class="content-study-js">
+			<img src="images/study-images/js.png">
+			<div id="txt2">
+				<ul>
+					<li>
+						<ul>组成部分
+							<li>ECMAScript，描述了该语言的语法和基本对象。</li>
+							<li>文档对象模型（DOM），描述处理网页内容的方法和接口。</li>
+							<li>浏览器对象模型（BOM），描述与浏览器进行交互的方法和接口。</li>
+						</ul>
+						<ul>基本特点
+							<li>1、是一种解释性脚本语言（代码不进行预编译）。</li>
+							<li>2、主要用来向HTML（标准通用标记语言下的一个应用）页面添加交互行为。</li>
+							<li>3、可以直接嵌入HTML页面，但写成单独的js文件有利于结构和行为的分离。</li>
+							<li>4、跨平台特性，在绝大多数浏览器的支持下，可以在多种平台下运行（如Windows、Linux、Mac、Android、iOS等）。</li>
+						</ul>
+						<ul>日常用途
+							<li>1、嵌入动态文本于HTML页面。</li>
+							<li>2、对浏览器事件做出响应。</li>
+							<li>3、读写HTML元素。</li>
+							<li>4、在数据被提交到服务器之前验证数据。</li>
+							<li>5、检测访客的浏览器信息。</li>
+							<li>6、控制cookies，包括创建和修改等。</li>
+							<li>7、基于Node.js技术进行服务器端编程。</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<input type="button" value="隐藏内容" onclick="hidetext2 ()">
+			<input type="button" value="显示内容" onclick="showtext2 ()">
+		</div>
+	</div>
+
+	<div class="public-container index-footer">
+		<a href="">版权所有: http://www.imwzx.top/</a>
+	</div>
+
+	<script src="js/time.js"></script>
+	<script src="js/study.js"></script>
+</body>
+</html>
