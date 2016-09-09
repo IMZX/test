@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style/common.css">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+</head>
+<body onload="changeImage()" onload="date_change()">
+	<div class="public-container clearfloat index-header">
+		<div class="header-logo">
+			<a href=""></a>
+			<p><em>Change for the better</em></p>
+		</div>
+		<ul class="header-navigation clearfloat">
+			<li class="item"><a href="http://imwzx.top/">首页</a></li>
+			<li class="item"><a href="index-study.html">前端介绍</a></li>				
+			<li class="item"><a href="javascript:abuoutme ();">联系我</a></li>
+			<li class="item"><a href="javascript:Friendship_link ()">慎点</a></li>
+		</ul>
+	</div>
+
+	<div class="public-container index-content clearfloat">
+		<div class="content-left">
+			<div class="date">
+				<script language="JavaScript">  
+					//var sWeek = new Array("日","一","二 ","三","四","五","六");
+
+					var myDate = new Date();    // 当天的日期
+
+					var sYear = myDate.getFullYear();    // 年
+					var sMonth = myDate.getMonth()+1;    // 月
+					var sDate = myDate.getDate();         // 日
+					//var sDay = sWeek[myDate.getDay()];   // 星期
+
+
+					document.write(imageDigits(sYear) + "&nbsp;&nbsp;" + 
+					               imageDigits(sMonth) + "&nbsp;&nbsp;" + 
+					               imageDigits(sDate) +  "<br>");
+
+					//  如果输入数是1位数，在十位数上补0
+					function formatTwoDigits(s) {
+					  if (s<10) return "0"+s;
+					  else return s;
+					}
+
+					//  将数转换为图像，注意，在本文件的相同目录下已有0－9的图像文件，文件名为0.gif，1.gif …… 以此类推
+					function imageDigits(s) {
+					  var ret = "";
+					  var s = new String(s);
+					  for (var i=0; i<s.length; i++) {
+					    ret += '<img src="images/num/' + s.charAt(i) + '.gif">';
+					  }
+					  return ret;
+					}
+				</script>
+			</div>
+			<div class="me">
+				<h2>关于我</h2>
+				<p>目前掌握html,css,和javascript,能够根据设计图进行切图（右边有我的切图作品，psd设计图素材来源于网络）。熟练运用计算机，掌握office办公软件、photoshop等软件，普通话流利。</p>
+				<p>前端的学习需要持之以恒，知识深度与广度都很重要。而前端开发的重中之重就是原生javascript的理解，而如今的思路必需有模块化，组件化，工程化。未来自己会不断努力，学习更多的知识。</p>
+			</div>
+			
+		</div>
+		<div class="content-right">
+			<ul class="sidbar">
+				<h2>作品与简历</h2>
+				<li class="item"><a href="">作品一</a></li>
+				<li class="item"><a href="works-2/index.html" target="_blank">切图作品</a></li>
+				<li class="item"><a href="download/吴梓鑫（简历）.zip">作品三</a></li>
+			</ul>
+			<div class="day">
+				<img src="images/day/1.png" name="myImage" >
+			</div>
+		</div>
+	</div>
+
+	<div class="public-container index-footer">
+		<a href="http://imwzx.top/">版权所有: http://www.imwzx.top/</a>
+	</div>
+	<script src="js/time.js"></script>
+</body>
+</html>
