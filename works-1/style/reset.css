@@ -1,0 +1,27 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-size:12px;
+	background:#909090;
+	font-family: "宋体", "微软雅黑", Arial, Helvetica, sans-serif;
+	color:#454545;
+}
+a {
+	text-decoration:none;
+	color:#454545;
+}
+a:hover {
+	text-decoration:underline;
+	color:#fff;
+}
+ul, li {
+	list-style:none;
+}
+.clear {
+	clear:both;
+}
+img {
+	border:none;
+}

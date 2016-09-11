@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>首页</title>
 	<link rel="stylesheet" type="text/css" href="style/common.css">
 	<link rel="stylesheet" type="text/css" href="style/index.css">
 </head>
@@ -26,25 +26,23 @@
 				<script language="JavaScript">  
 					//var sWeek = new Array("日","一","二 ","三","四","五","六");
 
-					var myDate = new Date();    // 当天的日期
+					var myDate = new Date();
 
-					var sYear = myDate.getFullYear();    // 年
-					var sMonth = myDate.getMonth()+1;    // 月
-					var sDate = myDate.getDate();         // 日
-					//var sDay = sWeek[myDate.getDay()];   // 星期
+					var sYear = myDate.getFullYear();
+					var sMonth = myDate.getMonth()+1;
+					var sDate = myDate.getDate();
+					//var sDay = sWeek[myDate.getDay()];
 
 
 					document.write(imageDigits(sYear) + "&nbsp;&nbsp;" + 
 					               imageDigits(sMonth) + "&nbsp;&nbsp;" + 
 					               imageDigits(sDate) +  "<br>");
 
-					//  如果输入数是1位数，在十位数上补0
 					function formatTwoDigits(s) {
 					  if (s<10) return "0"+s;
 					  else return s;
 					}
 
-					//  将数转换为图像，注意，在本文件的相同目录下已有0－9的图像文件，文件名为0.gif，1.gif …… 以此类推
 					function imageDigits(s) {
 					  var ret = "";
 					  var s = new String(s);
@@ -65,9 +63,9 @@
 		<div class="content-right">
 			<ul class="sidbar">
 				<h2>作品与简历</h2>
-				<li class="item"><a href="">作品一</a></li>
-				<li class="item"><a href="works-2/index.html" target="_blank">切图作品</a></li>
-				<li class="item"><a href="download/吴梓鑫（简历）.zip">作品三</a></li>
+				<li class="item"><a href="works-1/index.html" target="_blank">我的作品一</a></li>
+				<li class="item"><a href="works-2/index.html" target="_blank">我的作品二(切图)</a></li>
+				<li class="item"><a href="download/吴梓鑫（简历）.zip">我的简历（点击下载）</a></li>
 			</ul>
 			<div class="day">
 				<img src="images/day/1.png" name="myImage" >

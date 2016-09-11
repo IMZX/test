@@ -1,0 +1,101 @@
+#header{
+	background: url("../images/header_bg.jpg") repeat;
+	height:139px;
+	width:100%;
+	overflow:hidden;
+}
+
+#header-top{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#logo {
+	width:195px;
+	height:100px;
+	float:left;
+	background:url(../images/header-logo.png) no-repeat;
+}
+
+#slogan {
+	width:350px;
+	height:100px;
+	float:right;
+}
+
+#slogan span{
+	font-weight: bolder;
+	font-size: 50px;
+	line-height: 100px;
+}
+
+#nav {
+	clear:both;
+	background:url(../images/nav_bg.jpg) repeat-x;
+	height:40px;
+	line-height:40px;
+}
+
+#nav ul {
+	width:1000px;
+	margin:0 auto;
+}
+#nav ul li {
+	float:left;
+	width:166px;
+	text-align:center;
+	font-size:14px;
+}
+#nav ul li a {
+	color:#fff;
+	width:166px;
+	display:block;
+	height:40px;
+}
+#nav ul li a:hover {
+	background:url(../images/nav_h.jpg) no-repeat center 1px;
+}
+
+#content {
+	background:#939393 url(../images/content_bg.jpg) repeat-x;
+}
+
+#main{
+	width: 1000px;
+	overflow: 1000px;
+	margin: 0 auto;
+	background:url("../images/main_bg.png");
+}
+
+.bannar{
+	width: 1000px;
+	height: 260px;
+	background: url("../images/bannar_bg.png");
+	margin-bottom: 30px;
+}
+
+.picture-show{
+	width: 1050px;
+	height: 400px;
+}
+
+.picture-show .picture{
+	width: 300px;
+	height: 360px;
+	float: left;
+	margin-left: 30px;
+	text-align: center;
+}
+
+#footer {
+	background: url(../images/footer_bg.jpg) repeat-x;
+	height:52px;
+	width:1000px;
+	margin:0 auto;
+	color:#6d6d6d;
+	text-align: center;
+}
+
+#footer a{
+	line-height: 52px;
+}
